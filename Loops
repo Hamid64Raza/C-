@@ -1,1 +1,12 @@
-
+#include<iostream>
+using namespace std; 
+int main() 
+{ 
+    int num_array[]={1,2,3,4,5};   //array initialization
+    cout<<"The elements are: ";
+    for(int i : num_array)
+    {
+        cout<<i<<" ";
+    }
+    return 0;
+}
