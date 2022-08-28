@@ -1,0 +1,29 @@
+//Below is a Program to demonstrate Function of type TNRS..
+#include<iostream>
+using namespace std;
+
+
+int add();
+int main()
+{
+	int s;
+	
+	s= add();
+	cout<<"sum is="<<s;
+	return 0;
+	
+}
+
+
+
+
+
+int add()
+{
+	int a,b,c;
+	cout<<"Enter two number ";
+	cin>>a>>b;
+	c=a+b;
+	
+	return c;
+}
